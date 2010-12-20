@@ -1,0 +1,33 @@
+Zend Framework 1.X + Doctrine 2.X integration
+ZF1-Doctrine2-ServiceLayer
+
+Thanks to: Guilherme Blanco
+guilhermeblanco@hotmail.com
+https://github.com/guilhermeblanco/
+
+license http://www.opensource.org/licenses/lgpl-license.php LGPL
+
+#####################
+
+This is the default project using Zend Framework 1.11.1, Doctrine ORM RC2 and the ServiceLayer by Guilherme Blanco
+
+Contains:
+Application -> Library for a specific application
+Bisna       -> Doctrine2 integration library and serverlayer by Guilherme Blanco
+Doctrine    -> Common, DBAL and ORM library
+Symphony    -> Component\Console and Component\Yaml library
+Zend        -> Zend Framework library
+
+Done:
+Renamed Core library to Bisna.
+merged application.ini
+merged Bootstrap.php
+created modular project structure with default module "Default"
+created Default_Bootstrap
+
+Todo:
+add layout resource
+add translation resource
+add locale resource
+add log resource
+add mail resource

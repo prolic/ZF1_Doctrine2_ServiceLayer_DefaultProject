@@ -1,0 +1,4 @@
+#!/usr/sbin/php
+<?php
+
+include('doctrine.php');
